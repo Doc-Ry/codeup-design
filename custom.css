@@ -1,5 +1,6 @@
 body {
     background-color: #F0F0F0;
+    font-family: 'Abel', serif;
 }
 
 #small-nav {
@@ -20,6 +21,40 @@ body {
     font-size: 30px;
 }
 
+#nav-title-sm {
+    font-size: 30px;
+}
+
+.anton-font {
+    font-family: 'Anton', sans-serif;
+}
+
+.circle {
+    height: 105px;
+    width: 105px;
+    border: 8px white solid;
+    border-radius: 50%;
+    color: white;
+}
+
+#red {
+    background-color: #E6563B;
+}
+
+#orange {
+    background-color: #DEA03D;
+}
+
+#green {
+    background-color: #7CB06C;
+}
+
+#blue {
+    background-color: #00ABA9;
+}
+
+
+
 /*@include media-breakpoint-up(md) {*/
 @media (min-width: 768px) {
     .logo-left-on-md {
@@ -31,3 +66,5 @@ body {
         float: right;
     }
 }
+
+
