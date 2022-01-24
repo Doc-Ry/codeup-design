@@ -14,3 +14,20 @@ body {
     width: 105px;
     z-index: 1;
 }
+
+#nav-title-md {
+    float: right;
+    font-size: 30px;
+}
+
+/*@include media-breakpoint-up(md) {*/
+@media (min-width: 768px) {
+    .logo-left-on-md {
+        position: absolute;
+        left: 30px;
+    }
+
+    .menu-right-on-md {
+        float: right;
+    }
+}
