@@ -104,4 +104,16 @@ body {
 
 .smaller-circles {
     font-size: .6em;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.last-image-row {
+    height: 100px;
+}
+
+.last-image {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
 }
