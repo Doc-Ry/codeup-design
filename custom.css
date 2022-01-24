@@ -37,19 +37,27 @@ body {
     color: white;
 }
 
-#red {
+.smaller-circles {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background-color: #00ABA9;
+}
+
+
+.red {
     background-color: #E6563B;
 }
 
-#orange {
+.orange {
     background-color: #DEA03D;
 }
 
-#green {
+.green {
     background-color: #7CB06C;
 }
 
-#blue {
+.blue {
     background-color: #00ABA9;
 }
 
@@ -78,4 +86,22 @@ body {
         width: 60%;
         margin: 0 auto;
     }
+}
+
+.project-image>img {
+    width: 100%;
+    border: 8px #E6E6E6 solid;
+    border-radius: 5%;
+}
+
+.more-circles {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.smaller-circles {
+    font-size: .6em;
 }
