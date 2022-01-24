@@ -108,12 +108,14 @@ body {
     margin-top: 3px;
 }
 
-.last-image-row {
-    height: 100px;
+.last-image-text {
+    width: 200px;
+    margin-left: 60px;
 }
 
 .last-image {
     height: 50px;
     width: 50px;
     object-fit: cover;
+    float: left;
 }
